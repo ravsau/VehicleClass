@@ -15,20 +15,37 @@ public class CarApp {
 		System.out.println(b.accelerate());
 		
 		
-	    System.out.println(a.speed(50));
-	    System.out.println(b.speed(40));
+	    System.out.println(a.getSpeed());
+	    System.out.println(b.getSpeed());
+	    
+
+		System.out.println(a.accelerate());
+		
+		 System.out.println(a.getSpeed());
+		 System.out.println(b.getSpeed());
+	    
 	    
 		
-	    System.out.println(a.passes(car2));
+	    System.out.println(a.passes(b.getName()));
 	    
 		
 	    System.out.println(a.ticket());
 	    
+	    System.out.println(a.getSpeed());
+		 System.out.println(b.getSpeed());
+	    
 	    System.out.println(b.passes(car1));
+	    System.out.println(a.accelerate());
+	    
+
+		 System.out.println(a.getSpeed());
+		 System.out.println(b.getSpeed());
+	    
 	    
 	    System.out.println(b.stopped());
+	    System.out.println(b.getSpeed());
 	    
-	    System.out.println(a.passes(car2));
+	    System.out.println(a.passes(b.getName()));
 	    
 	    
 	    
